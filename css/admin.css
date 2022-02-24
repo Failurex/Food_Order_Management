@@ -1,0 +1,201 @@
+/*
+Author: Akram Sarkar;
+Theme: Restaurant Website  Admin;
+verson: 1.00;
+*/
+*{
+    margin: 0px;
+    padding: 0;   
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.text-center{
+    text-align: center;
+}
+.margin2
+{
+    margin: 1%;
+}
+.footer a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.footer a:hover
+{
+    color: #ff4757;
+}
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tbl-30{
+    margin: 0 auto;
+    width: 50%;
+    padding: 1%;
+}
+table tr th{
+  
+    padding:1%;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+   
+}
+table tr td
+{
+    border: 1px solid black;
+    padding: 1%;
+    width: 15%;
+    margin: 1%;
+    text-align: left;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin : 1%;
+    border-color: plum;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin: 1%; 
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #5352ed;
+    margin: 2%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+   text-decoration: none;
+
+}
+.btn-primary:hover
+{
+   
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color:#A3CB38;
+   
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+   text-decoration: none;
+
+}
+.btn-secondary:hover
+{
+    
+    background-color: #009432;
+}
+.btn-danger{
+    background-color: #e55039;
+   
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+   text-decoration: none;
+
+}
+.btn-danger:hover
+{
+    background-color: red;
+}
+.helper
+{
+    width: 25%;
+}
+.success{
+    color: green;
+   
+}
+.error
+{
+    color: rgb(245, 89, 89);
+  
+    
+}
+/* css for menue*/
+
+.menu ul{
+    list-style-type: none;
+}
+.menu
+{
+    border-bottom:1px solid gray;
+}
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover
+{
+    color: #ff4757;
+}
+/*css for main content*/
+.main-content{
+   
+    background-color: #dfe4ea;
+    padding: 3% 0;
+    
+}
+.col-4{
+    width: 18%;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    float: left;
+
+}
+/* css for footer*/
+.footer{
+    background-color: #e74c3c;
+    color: white;
+}
+/* Css for login*/
+.login
+{
+    background-image:url(../images/bg.jpg) ;
+
+}
+.loginsid
+{
+  
+    padding: 1%;
+    width: 30%;
+    margin: 18% auto;
+    background-color: gray;
+}
+.login a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: wheat
+}
+.login a:hover
+{
+    color: white;
+}
